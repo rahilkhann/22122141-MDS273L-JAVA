@@ -85,7 +85,11 @@ public class lab3 {
 	                    maxCount = count;
 	                    mode = numbers[i];
 	               }
+
 		}
+        if (maxCount == 1){
+            System.out.println("The mode does not exist for this data!");
+        }
 
         return mode;
     }
@@ -97,23 +101,24 @@ public class lab3 {
         System.out.println("+===========================================================+");
         System.out.print("||Enter the number of values you want to find the mean of: ");
         int arraylength = scan.nextInt();
-        System.out.println("||");
         int[] numbers = new int[arraylength];
         for(int i = 0; i<arraylength; i++){
-            System.out.println("||Enter the "+(i+1)+" th value of the array: ");
+            System.out.print("||Enter the "+(i+1)+" th value of the array: ");
+            System.out.print(" ");
             numbers[i] = scan.nextInt(); 
         }
 
 
 
         float mean = meanfunction(numbers);
-        System.out.println("The mean of the values is: "+mean);
+        System.out.println("+==============================+");
+        System.out.println("||The mean of the values is: "+mean);
 
         float median = medianfunction(numbers);
-        System.out.println("The median of the values is : "+median);
-
+        System.out.println("||The median of the values is : "+median);
+        System.out.println("+==============================+");
         float mode = modefunction(numbers);
-        System.out.println("The mode of the values is : "+mode);
-        
+        System.out.println("||The mode of the values is : "+mode);
+        System.out.println("+==============================+");
     }
 }
