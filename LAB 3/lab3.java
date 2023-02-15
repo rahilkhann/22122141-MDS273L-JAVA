@@ -120,8 +120,5 @@ public class lab3 {
         float mode = modefunction(numbers);
         System.out.println("||The mode of the values is : "+mode);
         System.out.println("+==============================+");
-
-
-        System.out.println();
     }
 }
