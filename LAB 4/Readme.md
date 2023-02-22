@@ -1,3 +1,4 @@
+```
 ## SAMPLE OUTPUT
 Enter your name: 
 Rahil
@@ -86,6 +87,5 @@ _________________________________________
 |4 || 25541||  Withdraw || 2300 || 23241|
 _________________________________________
 PRESS 0 TO HAULT, ANY OTHER KEY TO CONTINUE
-
-
+```
 ![](./lab4.drawio.png)
