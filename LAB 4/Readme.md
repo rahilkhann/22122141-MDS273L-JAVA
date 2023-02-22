@@ -88,4 +88,6 @@ _________________________________________
 _________________________________________
 PRESS 0 TO HAULT, ANY OTHER KEY TO CONTINUE
 ```
+
+## FLOWCHART OF THE PROGRAM
 ![](./lab4.drawio.png)
