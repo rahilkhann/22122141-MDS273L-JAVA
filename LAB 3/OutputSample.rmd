@@ -1,0 +1,16 @@
++===========================================================+
+|                 MEAN MEDIAN MODE CALCULATOR               |
++===========================================================+
+||Enter the number of values you want to find the mean of: 6
+||Enter the 1 th value of the array:  2
+||Enter the 2 th value of the array:  5
+||Enter the 3 th value of the array:  4
+||Enter the 4 th value of the array:  7
+||Enter the 5 th value of the array:  2
+||Enter the 6 th value of the array:  8
++==============================+
+||The mean of the values is: 4.6666665
+||The median of the values is : 4.0
++==============================+
+||The mode of the values is : 2.0
++==============================+
