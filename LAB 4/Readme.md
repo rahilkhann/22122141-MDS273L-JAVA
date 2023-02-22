@@ -1,5 +1,5 @@
-```
 ## SAMPLE OUTPUT
+```
 Enter your name: 
 Rahil
 Enter your account balance: 
