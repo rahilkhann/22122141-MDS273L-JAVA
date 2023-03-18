@@ -25,7 +25,7 @@ Each project and assignment is stored in its own folder and includes a README fi
 
 If you have any questions or feedback, feel free to reach out to me via email or LinkedIn.
 
-Email: rahil.khan@msds.christuniversity.in
-LinkedIn: https://www.linkedin.com/in/rahil-khan-136503196
+- Email: rahil.khan@msds.christuniversity.in
+- LinkedIn: https://www.linkedin.com/in/rahil-khan-136503196
 
 Thank you for visiting my Java Programming Lab Repository! 🙏 
