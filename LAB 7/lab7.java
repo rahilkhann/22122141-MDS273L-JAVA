@@ -96,12 +96,14 @@ public class lab7{
             float[] setosa_p_length = new float[50];
             float[] setosa_p_width = new float[50];
 
-            for(int k = 0;i<50;i++){
+            for(int k = 0;k<50;k++){
                 setosa_s_length[k] = sepallength[k];
                 setosa_s_width[k] = sepalwidth[k];
                 setosa_p_length[k] = petallength[k];
                 setosa_p_width[k] = petalwidth[k]; 
             }
+
+            System.out.println(setosa_p_length[2]);
 
             System.out.println("======================================================================");
             System.out.println("                       FIVE NUMBER SUMMARY(SETOSA)                         ");
@@ -109,9 +111,9 @@ public class lab7{
             System.out.println("NAME            MEAN       MEDIAN       MODE      MINIMUM      MAXIMUM  ");
             System.out.println("______________________________________________________________________");
             System.out.println("Sepal Length  "+mean(setosa_s_length)+"      "+median(setosa_s_length)+"        "+mode(setosa_s_length)+"         "+minimum(setosa_s_length)+"           "+maximum(setosa_s_length));
-            System.out.println("Sepal Width   "+mean(setosa_s_width)+"          "+median(setosa_s_width)+"        "+mode(setosa_s_width)+"         "+minimum(setosa_s_width)+"           "+maximum(setosa_s_width));
-            System.out.println("Petal Length  "+mean(setosa_p_length)+"      "+median(setosa_p_length)+"        "+mode(setosa_p_length)+"         "+minimum(setosa_p_length)+"           "+maximum(setosa_p_length));
-            System.out.println("Petal Width   "+mean(setosa_p_width)+"      "+median(setosa_p_width)+"        "+mode(setosa_p_width)+"         "+minimum(setosa_p_width)+"           "+maximum(setosa_p_width));
+            System.out.println("Sepal Width   "+mean(setosa_s_width)+"     "+median(setosa_s_width)+"        "+mode(setosa_s_width)+"         "+minimum(setosa_s_width)+"           "+maximum(setosa_s_width));
+            System.out.println("Petal Length  "+mean(setosa_p_length)+"     "+median(setosa_p_length)+"        "+mode(setosa_p_length)+"         "+minimum(setosa_p_length)+"           "+maximum(setosa_p_length));
+            System.out.println("Petal Width   "+mean(setosa_p_width)+"    "+median(setosa_p_width)+"        "+mode(setosa_p_width)+"         "+minimum(setosa_p_width)+"           "+maximum(setosa_p_width));
 
 
             float[] versi_s_length = new float[50];
@@ -119,25 +121,46 @@ public class lab7{
             float[] versi_p_length = new float[50];
             float[] versi_p_width = new float[50];
 
-            for(int k = 0;i<50;i++){
+            for(int k = 0;k<50;k++){
                 versi_s_length[k] = sepallength[k+50];
                 versi_s_width[k] = sepalwidth[k+50];
                 versi_p_length[k] = petallength[k+50];
                 versi_p_width[k] = petalwidth[k+50]; 
             }
 
+            System.out.println("======================================================================");
+            System.out.println("                     FIVE NUMBER SUMMARY(VERSICOLOR)                         ");
+            System.out.println("======================================================================");
+            System.out.println("NAME            MEAN       MEDIAN       MODE      MINIMUM      MAXIMUM  ");
+            System.out.println("______________________________________________________________________");
+            System.out.println("Sepal Length  "+mean(versi_s_length)+"      "+median(versi_s_length)+"        "+mode(versi_s_length)+"         "+minimum(versi_s_length)+"           "+maximum(versi_s_length));
+            System.out.println("Sepal Width   "+mean(versi_s_width)+"       "+median(versi_s_width)+"        "+mode(versi_s_width)+"         "+minimum(versi_s_width)+"           "+maximum(versi_s_width));
+            System.out.println("Petal Length  "+mean(versi_p_length)+"          "+median(versi_p_length)+"        "+mode(versi_p_length)+"         "+minimum(versi_p_length)+"           "+maximum(versi_p_length));
+            System.out.println("Petal Width   "+mean(versi_p_width)+"     "+median(versi_p_width)+"        "+mode(versi_p_width)+"         "+minimum(versi_p_width)+"           "+maximum(versi_p_width));
+
+
             float[] virgi_s_length = new float[50];
             float[] virgi_s_width = new float[50];
             float[] virgi_p_length = new float[50];
             float[] virgi_p_width = new float[50];
 
-            for(int k = 0;i<50;i++){
+            for(int k = 0;k<50;k++){
                 virgi_s_length[k] = sepallength[k+100];
                 virgi_s_width[k] = sepalwidth[k+100];
                 virgi_p_length[k] = petallength[k+100];
                 virgi_p_width[k] = petalwidth[k+100]; 
             }
 
+            System.out.println("======================================================================");
+            System.out.println("                     FIVE NUMBER SUMMARY(VIRGINICA)                         ");
+            System.out.println("======================================================================");
+            System.out.println("NAME            MEAN       MEDIAN       MODE      MINIMUM      MAXIMUM  ");
+            System.out.println("______________________________________________________________________");
+            System.out.println("Sepal Length  "+mean(virgi_s_length)+"      "+median(virgi_s_length)+"        "+mode(virgi_s_length)+"         "+minimum(virgi_s_length)+"           "+maximum(virgi_s_length));
+            System.out.println("Sepal Width   "+mean(virgi_s_width)+"         "+median(virgi_s_width)+"       "+mode(virgi_s_width)+"         "+minimum(virgi_s_width)+"           "+maximum(virgi_s_width));
+            System.out.println("Petal Length  "+mean(virgi_p_length)+"     "+median(virgi_p_length)+"        "+mode(virgi_p_length)+"         "+minimum(virgi_p_length)+"           "+maximum(virgi_p_length));
+            System.out.println("Petal Width   "+mean(virgi_p_width)+"     "+median(virgi_p_width)+"        "+mode(virgi_p_width)+"         "+minimum(virgi_p_width)+"           "+maximum(virgi_p_width));
+            System.out.println("_______________________________________________________________________");
         }catch(Exception exception){
             System.out.println(exception.getLocalizedMessage());
         }
